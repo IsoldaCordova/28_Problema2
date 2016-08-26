@@ -1,0 +1,59 @@
+/*background*/
+.back{
+	background-image: url(../image/large.png);
+	height: 50em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+nav{
+	background-color: transparent !important;
+	border: none !important;
+}
+.blue{
+	background-color:#000000;
+	opacity: 0.6;
+	height: 50em;
+}
+.blue2{
+	background-color: #3F72FA;
+	height: 10em;
+}
+/*padding and margin*/
+.pt{
+	padding-top: 2%;
+}
+.pd{
+	padding: 14% 28% 0% 26%;
+}
+.ml{
+	margin-left: 4%;
+}
+.ml2{
+	margin-left: 35%;
+}
+.mt{
+	margin-top: 13%;
+}
+.mt2{
+	margin-top: 5%;
+}
+/*text*/
+a{
+	color: #ffffff !important;
+	font-size: 16px;
+}
+.tw{
+	color: #ffffff;
+}
+.tb{
+	color: #3F72FA;
+}
+/*otro*/
+.lado{
+
+}
+button{
+	background-color: transparent;
+	border-color: #ffffff !important;
+
+}
