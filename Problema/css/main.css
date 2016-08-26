@@ -28,6 +28,9 @@ nav{
 .pd2{
 	padding: 0% 18% 5% 15%;
 }
+.pd3{
+	padding: -20% 5% 10% 0%;
+}
 .ml{
 	margin-left: 4%;
 }
@@ -35,16 +38,22 @@ nav{
 	margin-left: 35%;
 }
 .ml3{
-	margin-left: -5%;
+	margin-left: -6%;
 }
 .ml4{
-	margin-left: 6%;
+	margin-left: 16%;
+}
+.ml5{
+	 margin-left: 20%;
 }
 .mt{
 	margin-top: 13%;
 }
 .mt2{
 	margin-top: 5%;
+}
+.mt3{
+	margin-top: -10%;
 }
 .mb{
 	margin-bottom: 10%;
@@ -77,7 +86,7 @@ button{
 	width: 50%;
 }
 .img1{
-	width: 120%;
+	width: 110%;
 	margin-left: -10%;
 	margin-top: -5%;
 }
@@ -85,6 +94,8 @@ button{
 	display: inline-block;
 }
 .azul{
-	background-color: purple;
-	bor
+	background-color: #b3d9ff;
+	border-radius: 55%;
+	width: 4em;
+	height: 4em;
 }
