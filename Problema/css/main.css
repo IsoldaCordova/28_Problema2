@@ -25,17 +25,29 @@ nav{
 .pd{
 	padding: 14% 28% 0% 26%;
 }
+.pd2{
+	padding: 0% 18% 5% 15%;
+}
 .ml{
 	margin-left: 4%;
 }
 .ml2{
 	margin-left: 35%;
 }
+.ml3{
+	margin-left: -5%;
+}
+.ml4{
+	margin-left: 6%;
+}
 .mt{
 	margin-top: 13%;
 }
 .mt2{
 	margin-top: 5%;
+}
+.mb{
+	margin-bottom: 10%;
 }
 /*text*/
 a{
@@ -45,7 +57,7 @@ a{
 .tw{
 	color: #ffffff;
 }
-.tb{
+i, .tb{
 	color: #3F72FA;
 }
 /*otro*/
@@ -56,4 +68,23 @@ button{
 	background-color: transparent;
 	border-color: #ffffff !important;
 
+}
+.abajo{
+	margin-left: 45%;
+	margin-top: -7%;
+}
+.logo{
+	width: 50%;
+}
+.img1{
+	width: 120%;
+	margin-left: -10%;
+	margin-top: -5%;
+}
+.dis{
+	display: inline-block;
+}
+.azul{
+	background-color: purple;
+	bor
 }
