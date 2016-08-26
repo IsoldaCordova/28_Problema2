@@ -18,6 +18,10 @@ nav{
 	background-color: #3F72FA;
 	height: 10em;
 }
+.blue3{
+	background-color: #00264d;
+	height: 8em;
+}
 /*padding and margin*/
 .pt{
 	padding-top: 2%;
@@ -60,7 +64,7 @@ nav{
 }
 /*text*/
 a{
-	color: #ffffff !important;
+	color: #3F72FA !important;
 	font-size: 16px;
 }
 .tw{
@@ -84,6 +88,9 @@ button{
 }
 .logo{
 	width: 50%;
+}
+.logo2{
+	width: 100%;
 }
 .img1{
 	width: 110%;
