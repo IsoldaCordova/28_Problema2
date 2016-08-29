@@ -5,6 +5,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.back2{
+	background-image: url(../image/large.jpg);
+	height: 48.3em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 nav{
 	background-color: transparent !important;
 	border: none !important;
@@ -22,6 +28,12 @@ nav{
 	background-color: #00264d;
 	height: 8em;
 }
+.bggray{
+	background-color:  #EAEAEA;
+	height: 38em;
+	width: 100%;
+	padding: 2%;
+}
 /*padding and margin*/
 .pt{
 	padding-top: 2%;
@@ -34,6 +46,9 @@ nav{
 }
 .pd3{
 	padding: -20% 5% 10% 0%;
+}
+.pd4{
+	padding: 0% 25% 5% 35%;
 }
 .ml{
 	margin-left: 4%;
@@ -50,6 +65,12 @@ nav{
 .ml5{
 	 margin-left: 20%;
 }
+.ml6{
+	margin-left: 3%;
+}
+.ml7{
+	margin-left: 70%;
+}
 .mt{
 	margin-top: 13%;
 }
@@ -58,6 +79,15 @@ nav{
 }
 .mt3{
 	margin-top: -10%;
+}
+.mt4{
+	margin-top: 50%;
+}
+.mt5{
+	margin-top: -99%;
+}
+.mt6{
+	margin-top: -3%;
 }
 .mb{
 	margin-bottom: 10%;
@@ -80,6 +110,7 @@ i, .tb{
 button{
 	background-color: transparent;
 	border-color: #ffffff !important;
+	padding: 3% 10% !important;
 
 }
 .abajo{
@@ -93,7 +124,7 @@ button{
 	width: 100%;
 }
 .img1{
-	width: 110%;
+	width: 130%;
 	margin-left: -10%;
 	margin-top: -5%;
 }
@@ -105,4 +136,7 @@ button{
 	border-radius: 55%;
 	width: 4em;
 	height: 4em;
+}
+.dos{
+	width: 50% !important;
 }

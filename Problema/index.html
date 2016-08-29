@@ -4,10 +4,10 @@
 	  	<meta charset="utf-8">
 	  	<title>User Testing 360°</title>
 	  	<link rel="stylesheet" href="css/main.css">
+	  	<link rel="stylesheet" href="css/queries.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/queries.css">
 		<link rel="stylesheet" href="css/icomoon.css">
 	</head>
 	<body>
@@ -30,7 +30,7 @@
                 					<li><a href="#"> ¿Qué me ofrece?</a></li>
                 					<li><a href="#video"> ¿Cómo funciona?</a></li>
                 					<li><a href="#"> ¿Por qué usarlo?</a></li>
-                					<li><a href="#">Contáctanos</a></li>
+                					<li><a href="contact.html" target="_blank">Contáctanos</a></li>
             					</ul>
         					</div>
 						</nav>
@@ -44,14 +44,31 @@
 					</div>
 				</div>
 				<div class="row blue2 mt">
-					<div class="col-lg-6 col-ms-6 col-xs-12 tw ml2"><!-- texto 5 min -->
-						<h2>PRUEBA GRATUITA</h2>
-						<p>Obtén un video gratis de 5 minutos</p>
+					<div class="col-lg-6 col-ms-6 col-xs-12 tw"><!-- texto 5 min -->
+						<h2 class="ml2">PRUEBA GRATUITA</h2>
+						<p class="ml2">Obtén un video gratis de 5 minutos</p>
 					</div>
-					<div class="col-lg-6 col-ms-6 col-xs-12"><!-- CHECAR EL MEDIA PORQUE NO SALE-->
-						<a href="contact.html">
-								<button class="btn btn-primary" target="_blank">Prueba Gratis</button>
-						</a>
+					<div class="col-lg-6 col-ms-6 col-xs-12 mt2"><!-- CHECAR EL MEDIA PORQUE NO SALE-->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+							Prueba Gratis
+						</button>
+						<!-- MODAL-->
+  						<div class="modal fade" id="myModal" role="dialog">
+    						<div class="modal-dialog modal-lg">
+      							<div class="modal-content">
+        							<div class="modal-header">
+          								<button type="button" class="close" data-dismiss="modal">&times;</button>
+          								<h4 class="modal-title">Modal Header</h4>
+        							</div>
+        							<div class="modal-body">
+          								<p>This is a large modal.</p>
+        							</div>
+        							<div class="modal-footer">
+          								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        							</div>
+      							</div>
+    						</div>
+  						</div>
 					</div>
 				</div>
 			</div>	
@@ -112,44 +129,53 @@
 			</div>
 		</section>
 		<section>
-			<div class="container-fluid"><!-- cuadro imagen-->
-				<div class="row mt" id="video">
-					<div class="col-lg-6 col-ms-6 col-xs-12 mb">
+			<div class="container-fluid"><!-- iconos-->
+				<div class="row" id="video">
+					<div class="col-lg-5 col-ms-5 col-xs-12 mb">
 						<hr>
 					   <img src="image/sec-2.jpg" class="img1">
 					</div>
-					<div class="col-lg-5 col-ms-5 col-xs-12 ml3" id="video">
-						<div>
+					<div class="col-lg-2 col-ms-2 col-xs-12 ml6" id="video">
+						<div class="mt">
 							<div class="azul">
 								<i class="icon-pencil fa-3x"></i>
 							</div>
-							<div class="pd3 mt3 ml4">
+							<div class="azul mt4">
+					   			<i class="icon-tools-2 fa-3x"></i>
+					   		</div>
+					   		<div class="azul mt4">
+								<i class="icon-search fa-3x"></i>
+							</div>
+						</div>
+					   	<form action="#">
+					   		<input type="image" src="image/separador.png" class="mt">
+					   	</form>	
+					</div>
+					<div class="row">
+						<div class="col-lg-5 col-ms-5 col-xs-12">
+							<div class="pd3 mt5 ml4">
 								<h2 class="dis ml4">Lo quiero ¿Qué hago?</h2>
-								<div class="pd2 ">
+								<div class="pd2">
 									<p class="tb">Paso 1: envianos tu link</p>
 					   				<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
 								</div>
 					   		</div>
-						</div>
-					   	<div>
-					   		<div class="azul">
-					   			<i class="icon-tools-2 fa-3x"></i>
-					   		</div>
-					   		<div class="pd3 mt3 ml4">
+					   		<div class="ml4">
 								<div class="pd2">
-					   				<p class="tb">Paso 1: envianos tu link</p>
-					   				<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
+					   				<p class="tb">Paso 2: describe a tu público objetivo</p>
+					   				<p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
+					   				<ul>
+					   					<li> A primera vista de ¿Qué crees que trata la página?</li>
+					   					<li>Busca el botón de inscribirte o comprar</li>
+					   					<li>¿Es fácil o difícil leer los textos?</li>
+					   				</ul>
+					   				<p>Puedes hacer preguntas como las que te mostramos.</p>
 					   			</div>
 					   		</div>
-						</div>
-						<div>
-							<div class="azul">
-								<i class="icon-search fa-3x"></i>
-							</div>
-							<div class="pd3 mt3 ml4">
+					   		<div class=" ml4">
 								<div class="pd2">
-					   				<p class="tb">Paso 1: envianos tu link</p>
-					   				<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
+					   				<p class="tb">Paso 3: recibe un video y el feedback completo</p>
+					   				<p>Recibe un combo de 7 videos y un informe detallado con las capacitaciones de usabilidad de tu producto.</p>
 					   			</div>
 					   		</div>	
 						</div>
@@ -158,20 +184,8 @@
 			</div>
 		</section>
 		<section>
-			<div class="container"><!-- boton abajo -->
-				<div class="row">
-					<div class="col-lg-12 col-ms-12 col-xs-12">
-					   <hr class="tb">
-					   <form action="#">
-					   		<input type="image" src="image/separador.png" class="abajo">
-					   </form>	
-					</div>
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="container"><!-- cuadro VIDEO-->
-				<div class="row mt" id="tres">
+			<div class="container"><!-- cuadro imagen-->
+				<div class="row" id="tres">
 					<div class="col-lg-6 col-ms-6 col-xs-12 mb">
 					   	<h2 class="tb">Por qué usar<img src="image/logo-2.jpg" class="logo"></h2>
 					   	<p>En la era en a que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero Qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <a href="#">User Testing 360</a>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con <a href="#">User Testing 360</a> podrás entender: </p>
@@ -194,10 +208,25 @@
 						<h2>PRUEBA GRATUITA</h2>
 						<p>Obtén un video gratis de 5 minutos</p>
 					</div>
-					<div class="col-lg-6 col-ms-6 col-xs-12"><!-- CHECAR EL MEDIA PORQUE NO SALE-->
-						<a href="contact.html">
-								<button class="btn btn-primary" target="_blank">Prueba Gratis</button>
-						</a>
+					<div class="col-lg-6 col-ms-6 col-xs-12 ml7 mt6"><!-- CHECAR EL MEDIA PORQUE NO SALE-->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Prueba Gratis</button>
+						<!-- Modal -->
+  						<div class="modal fade" id="myModal" role="dialog">
+    						<div class="modal-dialog modal-lg">
+      							<div class="modal-content">
+        							<div class="modal-header">
+          								<button type="button" class="close" data-dismiss="modal">&times;</button>
+          								<h4 class="modal-title">Modal Header</h4>
+        							</div>
+        							<div class="modal-body">
+          								<p>This is a large modal.</p>
+        							</div>
+        							<div class="modal-footer">
+          								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        							</div>
+      							</div>
+    						</div>
+  						</div>
 					</div>
 				</div>
 		</section>
@@ -210,12 +239,19 @@
 						<p><b>phone: 989637925</b></p>
 					</div>
 					<div class="col-lg-6 col-ms-6 col-xs-12 tw">
-						<i class="icon-facebook fa-2x"></i>
+						<i class="icon-facebook fa-2x" href="www.facebook.com"></i>
 						<i class="icon-twitter fa-2x"></i>
 						<p>Copyright © 2015 - User Testing 360</p>
 					</div>
 				</div>
 			</div>
 		</footer>
+		 <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+ 
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+         incluir archivos JavaScript individuales de los únicos
+         plugins que utilices) -->
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
